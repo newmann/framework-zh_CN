@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+
+<!--             <moqui.basic.EnumerationType description="Data Feed Type" enumTypeId="DataFeedType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="DataFeedType" locale="zh_CN" localized="数据来源类型"/>  
+
+
+<!--             <moqui.basic.Enumeration description="Real-time Service Push" enumId="DTFDTP_RT_PUSH" enumTypeId="DataFeedType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DTFDTP_RT_PUSH" locale="zh_CN" localized="实时服务推送"/>  
+<!--             <moqui.basic.Enumeration description="Manual Pull (through API)" enumId="DTFDTP_MAN_PULL" enumTypeId="DataFeedType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DTFDTP_MAN_PULL" locale="zh_CN" localized="手动推送（通过API）"/>  
+            
+<!--             <moqui.basic.StatusType description="Entity Sync" parentTypeId="" statusTypeId="EntitySync"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" 
+	    pkValue="EntitySync" locale="zh_CN" localized="实体同步"/>  
+
+            
+<!--             <moqui.basic.StatusItem description="Not Started" sequenceNum="1" statusId="EsNotStarted" statusTypeId="EntitySync"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="EsNotStarted" locale="zh_CN" localized="没有开始"/>  
+	    
+<!--             <moqui.basic.StatusItem description="Running" sequenceNum="2" statusId="EsRunning" statusTypeId="EntitySync"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="EsRunning" locale="zh_CN" localized="运行中"/>  
+
+<!--             <moqui.basic.StatusItem description="Complete" sequenceNum="4" statusId="EsComplete" statusTypeId="EntitySync"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="EsComplete" locale="zh_CN" localized="完成"/>  
+
+<!--             <moqui.basic.StatusItem description="Other Error" sequenceNum="98" statusId="EsOtherError" statusTypeId="EntitySync"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="EsOtherError" locale="zh_CN" localized="其他错误"/>  
+            
+<!--             <moqui.basic.EnumerationType description="Entity Sync Artifact Application Type" enumTypeId="EntitySyncArtifactAppl"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="EntitySyncArtifactAppl" locale="zh_CN" localized="实体同步组件应用程序类型"/>  
+
+<!--             <moqui.basic.Enumeration description="Include" enumId="EsaaInclude" sequenceNum="1" enumTypeId="EntitySyncArtifactAppl"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EsaaInclude" locale="zh_CN" localized="包含"/>  
+
+<!--             <moqui.basic.Enumeration description="Exclude" enumId="EsaaExclude" sequenceNum="2" enumTypeId="EntitySyncArtifactAppl"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EsaaExclude" locale="zh_CN" localized="不包含"/>  
+
+<!--             <moqui.basic.Enumeration description="Always Include" enumId="EsaaAlways" sequenceNum="3" enumTypeId="EntitySyncArtifactAppl"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EsaaAlways" locale="zh_CN" localized="总是包含"/>  
+            
+                        
+</entity-facade-xml>

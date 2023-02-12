@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+            <!-- =========================== Data Source Type Data ==================== -->
+<!--             <moqui.basic.EnumerationType description="Data Source Type" enumTypeId="DataSourceType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="DataSourceType" locale="zh_CN" localized="数据源类型"/>  
+
+<!--             <moqui.basic.Enumeration description="Purchased Data" enumId="DST_PURCHASED_DATA" enumTypeId="DataSourceType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DST_PURCHASED_DATA" locale="zh_CN" localized="采购数据"/>  
+
+<!--             <moqui.basic.Enumeration description="Customer Data Entry" enumId="DST_CUSTOMER_ENTRY" enumTypeId="DataSourceType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DST_CUSTOMER_ENTRY" locale="zh_CN" localized="客户数据入口"/>  
+
+<!--             <moqui.basic.Enumeration description="Internal Data Entry (employees, etc)" enumId="DST_INTERNAL_ENTRY" enumTypeId="DataSourceType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DST_INTERNAL_ENTRY" locale="zh_CN" localized="内部数据入口（员工，等等）"/>  
+
+<!--             <moqui.basic.Enumeration description="Mailing List Sign-up" enumId="DST_MAILING_SIGNUP" enumTypeId="DataSourceType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DST_MAILING_SIGNUP" locale="zh_CN" localized="邮件列表注册"/>  
+            
+    <!-- ========== Enumeration ========== -->            
+<!--             <moqui.basic.EnumerationType enumTypeId="_NA_" description="Not Applicable"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="_NA_" locale="zh_CN" localized="不可用"/>  
+	                
+<!--             <moqui.basic.Enumeration enumId="_NA_" enumTypeId="_NA_" description="Not Applicable"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="_NA_" locale="zh_CN" localized="不可用"/>  
+	    
+<!--             <moqui.basic.EnumerationType description="Boolean (Yes/No)" enumTypeId="BooleanYN"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="BooleanYN" locale="zh_CN" localized="布尔型（是/否）"/>  
+	                
+<!--             <moqui.basic.Enumeration description="Yes" enumId="BlY" enumTypeId="BooleanYN"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="BlY" locale="zh_CN" localized="是"/>
+	      
+<!--             <moqui.basic.Enumeration description="No" enumId="BlN" enumTypeId="BooleanYN"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="BlN" locale="zh_CN" localized="否"/>  
+	    
+            <!-- NOTE: It is very important that these remain in the sequence order (1-Monday through 7-Sunday)
+                 so that ZDT calculations (which return ISO8601 values for the day of the week) work properly. -->
+<!--             <moqui.basic.EnumerationType description="Day of Week" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="DayOfWeek" locale="zh_CN" localized="星期"/>  
+	            
+<!--             <moqui.basic.Enumeration description="Monday" enumId="DowMonday" sequenceNum="1" enumCode="MONDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowMonday" locale="zh_CN" localized="星期一"/>  
+<!--             <moqui.basic.Enumeration description="Tuesday" enumId="DowTuesday" sequenceNum="2" enumCode="TUESDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowTuesday" locale="zh_CN" localized="星期二"/>  
+<!--             <moqui.basic.Enumeration description="Wednesday" enumId="DowWednesday" sequenceNum="3" enumCode="WEDNESDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowWednesday" locale="zh_CN" localized="星期三"/>  
+<!--             <moqui.basic.Enumeration description="Thursday" enumId="DowThursday" sequenceNum="4" enumCode="THURSDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowThursday" locale="zh_CN" localized="星期四"/>  
+<!--             <moqui.basic.Enumeration description="Friday" enumId="DowFriday" sequenceNum="5" enumCode="FRIDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowFriday" locale="zh_CN" localized="星期五"/>  
+<!--             <moqui.basic.Enumeration description="Saturday" enumId="DowSaturday" sequenceNum="6" enumCode="SATURDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowSaturday" locale="zh_CN" localized="星期六"/>  
+<!--             <moqui.basic.Enumeration description="Sunday" enumId="DowSunday" sequenceNum="7" enumCode="SUNDAY" enumTypeId="DayOfWeek"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="DowSunday" locale="zh_CN" localized="星期日"/>  
+
+	
+<!-- 	<moqui.basic.EnumerationType description="Enumeration Group" enumTypeId="EnumGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="EnumGroup" locale="zh_CN" localized="枚举数据分组"/>
+	      
+
+            <!-- =========================== Geo Type Data ============================ -->
+<!--             <moqui.basic.EnumerationType description="Geo Type" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="GeoType" locale="zh_CN" localized="地理类型"/>
+	    
+            <!-- General Geographic Groupings -->
+<!--             <moqui.basic.Enumeration description="Group" enumId="GEOT_GROUP" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_GROUP" locale="zh_CN" localized="分组"/>  
+	    
+<!--             <moqui.basic.Enumeration description="Region" enumId="GEOT_REGION" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_REGION" locale="zh_CN" localized="区域"/>  
+<!--             <moqui.basic.Enumeration description="Sales Region" enumId="GEOT_SALES_REGION" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_SALES_REGION" locale="zh_CN" localized="销售区域"/>
+	      
+<!--             <moqui.basic.Enumeration description="Service Region" enumId="GEOT_SERVICE_REGION" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_SERVICE_REGION" locale="zh_CN" localized="服务区域"/>  
+	    
+            <!-- Legal/Governmental Geographic Groupings based on Juris-diction -->
+<!--             <moqui.basic.Enumeration description="City" enumId="GEOT_CITY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_CITY" locale="zh_CN" localized="城市"/>  
+            
+<!--             <moqui.basic.Enumeration description="State" enumId="GEOT_STATE" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_STATE" locale="zh_CN" localized="州"/>  
+
+<!--             <moqui.basic.Enumeration description="Postal Code" enumId="GEOT_POSTAL_CODE" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_POSTAL_CODE" locale="zh_CN" localized="邮政区号"/>  
+
+<!--             <moqui.basic.Enumeration description="Country" enumId="GEOT_COUNTRY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_COUNTRY" locale="zh_CN" localized="国家"/>  
+
+
+<!--             <moqui.basic.Enumeration description="County-City" enumId="GEOT_COUNTY_CITY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_COUNTY_CITY" locale="zh_CN" localized="县城"/>  
+
+<!--             <moqui.basic.Enumeration description="Municipality" enumId="GEOT_MUNICIPALITY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_MUNICIPALITY" locale="zh_CN" localized="自治市"/>  
+
+<!--             <moqui.basic.Enumeration description="Province" enumId="GEOT_PROVINCE" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_PROVINCE" locale="zh_CN" localized="省"/>  
+
+<!--             <moqui.basic.Enumeration description="Territory" enumId="GEOT_TERRITORY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GEOT_TERRITORY" locale="zh_CN" localized="领土"/>  
+
+<!--             <moqui.basic.EnumerationType description="Geo Assoc Type" enumTypeId="GeoAssocType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="GeoAssocType" locale="zh_CN" localized="地理相关类型"/>
+	                
+<!--             <moqui.basic.Enumeration description="Geo Group Member" enumId="GAT_GROUP_MEMBER" enumTypeId="GeoAssocType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GAT_GROUP_MEMBER" locale="zh_CN" localized="地理分组成员"/>              
+<!--             <moqui.basic.Enumeration description="Region of a Larger Geo" enumId="GAT_REGIONS" enumTypeId="GeoAssocType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GAT_REGIONS" locale="zh_CN" localized="大地理区域"/>  
+<!--             <moqui.basic.Enumeration description="Administrative City" enumId="GAT_COUNTY_SEAT" enumTypeId="GeoAssocType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="GAT_COUNTY_SEAT" locale="zh_CN" localized="行政城市"/>              
+            
+<!--             <moqui.basic.EnumerationType description="Geo Point Type" enumTypeId="GeoPointType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="GeoPointType" locale="zh_CN" localized="地点类型"/>            
+                        
+<!--  <moqui.basic.StatusFlow statusFlowId="Default" description="Default status flow across entire system."/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusFlow" fieldName="description" 
+	    pkValue="Default" locale="zh_CN" localized="整个系统的默认状态流。"/>            
+ 
+            <!-- =========================== UOM Type Data ============================ -->
+<!--             <moqui.basic.EnumerationType description="UOM Type" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="UomType" locale="zh_CN" localized="单位类型"/>  
+	                
+<!--             <moqui.basic.Enumeration description="Currency" enumId="UT_CURRENCY_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_CURRENCY_MEASURE" locale="zh_CN" localized="货币"/>  
+<!--             <moqui.basic.Enumeration description="Data Size" enumId="UT_DATA_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_DATA_MEASURE" locale="zh_CN" localized="数据量"/>  
+<!--             <moqui.basic.Enumeration description="Data Speed" enumId="UT_DATASPD_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_DATASPD_MEASURE" locale="zh_CN" localized="数据速率"/>  
+<!--             <moqui.basic.Enumeration description="Time/Frequency" enumId="UT_TIME_FREQ_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_TIME_FREQ_MEASURE" locale="zh_CN" localized="时间/频率"/>
+	      
+<!--             <moqui.basic.Enumeration description="Length" enumId="UT_LENGTH_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_LENGTH_MEASURE" locale="zh_CN" localized="长度"/>
+	      
+<!--             <moqui.basic.Enumeration description="Velocity" enumId="UT_VELOCITY_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_VELOCITY_MEASURE" locale="zh_CN" localized="速度"/>  
+	    
+<!--             <moqui.basic.Enumeration description="Area" enumId="UT_AREA_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_AREA_MEASURE" locale="zh_CN" localized="区域"/>
+	      
+<!--             <moqui.basic.Enumeration description="Liquid Volume" enumId="UT_VOLUME_LIQ_MEAS" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_VOLUME_LIQ_MEAS" locale="zh_CN" localized="液体体积"/>
+	      
+<!--             <moqui.basic.Enumeration description="Dry Volume" enumId="UT_VOLUME_DRY_MEAS" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_VOLUME_DRY_MEAS" locale="zh_CN" localized="干容积"/>
+	      
+<!--             <moqui.basic.Enumeration description="Density" enumId="UT_DENSITY_MEAS" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_DENSITY_MEAS" locale="zh_CN" localized="密度"/>
+	      
+<!--             <moqui.basic.Enumeration description="Weight" enumId="UT_WEIGHT_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_WEIGHT_MEASURE" locale="zh_CN" localized="重量"/>
+	      
+<!--             <moqui.basic.Enumeration description="Energy" enumId="UT_ENERGY_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_ENERGY_MEASURE" locale="zh_CN" localized="能量"/>  
+<!--             <moqui.basic.Enumeration description="Power" enumId="UT_POWER_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_POWER_MEASURE" locale="zh_CN" localized="电力"/>  
+<!--             <moqui.basic.Enumeration description="Pressure" enumId="UT_PRESSURE_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_PRESSURE_MEASURE" locale="zh_CN" localized="压力"/>  
+<!--             <moqui.basic.Enumeration description="Temperature" enumId="UT_TEMP_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_TEMP_MEASURE" locale="zh_CN" localized="温度"/>  
+<!--             <moqui.basic.Enumeration description="Other" enumId="UT_OTHER_MEASURE" enumTypeId="UomType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UT_OTHER_MEASURE" locale="zh_CN" localized="其他"/>  
+	    
+	                
+<!--              <moqui.basic.EnumerationType description="Uom Conversion Purpose" enumTypeId="UomConversionPurpose"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="UomConversionPurpose" locale="zh_CN" localized="单位转换目的"/>  
+                        
+<!--             <moqui.basic.EnumerationType description="UOM Group" enumTypeId="UomGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="UomGroup" locale="zh_CN" localized="单位组"/>  
+            
+<!--             <moqui.basic.EnumerationType description="UOM Dimension Type Group" enumTypeId="UomDimTypeGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="UomDimTypeGroup" locale="zh_CN" localized="单位尺寸类型组"/>  
+
+<!--             <moqui.basic.Enumeration description="Product" enumId="UdtgProduct" enumTypeId="UomDimTypeGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UdtgProduct" locale="zh_CN" localized="产品"/>  
+<!--             <moqui.basic.Enumeration description="Party" enumId="UdtgParty" enumTypeId="UomDimTypeGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UdtgParty" locale="zh_CN" localized="实体"/>  
+<!--             <moqui.basic.Enumeration description="Person" enumId="UdtgPerson" parentEnumId="UdtgParty" enumTypeId="UomDimTypeGroup"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UdtgPerson" locale="zh_CN" localized="个人"/>  
+<!--             <moqui.basic.Enumeration description="Organization" enumId="UdtgOrg" parentEnumId="UdtgParty" enumTypeId="UomDimTypeGroup"/> -->                        
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="UdtgOrg" locale="zh_CN" localized="组织"/>              
+
+            <!-- Email Message Status -->
+<!--             <moqui.basic.StatusType description="Email Message Status" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" 
+	    pkValue="EmailMessage" locale="zh_CN" localized="邮件信息状态"/>   
+	    
+<!--             <moqui.basic.StatusItem description="Draft" sequenceNum="1" statusId="ES_DRAFT" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_DRAFT" locale="zh_CN" localized="草稿"/>   
+           
+<!--             <moqui.basic.StatusItem description="Ready" sequenceNum="2" statusId="ES_READY" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_READY" locale="zh_CN" localized="就绪"/>   
+
+<!--             <moqui.basic.StatusItem description="Sent" sequenceNum="3" statusId="ES_SENT" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_SENT" locale="zh_CN" localized="发送"/>   
+
+<!--             <moqui.basic.StatusItem description="Received" sequenceNum="4" statusId="ES_RECEIVED" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_RECEIVED" locale="zh_CN" localized="已收到"/>   
+
+<!--             <moqui.basic.StatusItem description="Viewed" sequenceNum="5" statusId="ES_VIEWED" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_VIEWED" locale="zh_CN" localized="已阅读"/>   
+
+<!--             <moqui.basic.StatusItem description="Bounced" sequenceNum="8" statusId="ES_BOUNCED" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_BOUNCED" locale="zh_CN" localized="退回"/>   
+
+<!--             <moqui.basic.StatusItem description="Cancelled" sequenceNum="9" statusId="ES_CANCELLED" statusTypeId="EmailMessage"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="ES_CANCELLED" locale="zh_CN" localized="已取消"/>   
+
+
+            <!-- Email Type -->
+<!--             <moqui.basic.EnumerationType description="Email Type" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
+	    pkValue="EmailType" locale="zh_CN" localized="邮件类型"/>   
+	                
+<!--             <moqui.basic.Enumeration description="System" enumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_SYSTEM" locale="zh_CN" localized="系统"/>
+	      
+	    
+<!--             <moqui.basic.Enumeration description="Password Reset" enumId="EMT_PWD_RESET" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_PWD_RESET" locale="zh_CN" localized="重置密码"/>
+
+<!--             <moqui.basic.Enumeration description="Single Use Code" enumId="EMT_SINGLE_USE_CODE" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_SINGLE_USE_CODE" locale="zh_CN" localized="单次使用代码"/>
+
+<!--             <moqui.basic.Enumeration description="Added Email Authentication Type" enumId="EMT_ADDED_EMAIL_AUTHC_FACTOR" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_ADDED_EMAIL_AUTHC_FACTOR" locale="zh_CN" localized="新增邮件认证类型"/>
+
+<!--             <moqui.basic.Enumeration description="Email Authentication Code Sent" enumId="EMT_EMAIL_AUTHC_FACTOR_SENT" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_EMAIL_AUTHC_FACTOR_SENT" locale="zh_CN" localized="邮件认证代码已发送"/>
+
+<!--             <moqui.basic.Enumeration description="Notification" enumId="EMT_NOTIFICATION" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_NOTIFICATION" locale="zh_CN" localized="提醒"/>
+
+<!--             <moqui.basic.Enumeration description="Screen Render" enumId="EMT_SCREEN_RENDER" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_SCREEN_RENDER" locale="zh_CN" localized="界面渲染"/>
+
+            <!-- <moqui.basic.Enumeration description="Error Notice" enumId="EMT_ERROR_NOTICE" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+
+<!--             <moqui.basic.Enumeration description="Registration Confirmation" enumId="EMT_REG_CONFIRM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_REG_CONFIRM" locale="zh_CN" localized="注册确认"/>
+
+<!--             <moqui.basic.Enumeration description="Update Personal Info Confirmation" enumId="EMT_UPD_INFO_CONFIRM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_UPD_INFO_CONFIRM" locale="zh_CN" localized="个人信息修改确认"/>
+
+<!--             <moqui.basic.Enumeration description="Email Address Verification" enumId="EMT_EMAIL_VERIFY" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_EMAIL_VERIFY" locale="zh_CN" localized="邮件地址确认"/>
+
+<!--             <moqui.basic.Enumeration description="Account Invitation" enumId="EMT_ACCOUNT_INVITE" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
+	    pkValue="EMT_ACCOUNT_INVITE" locale="zh_CN" localized="账户邀请"/>
+
+            <!-- <moqui.basic.Enumeration description="Contact Us Notification" enumId="EMT_CONACT_US_NOT" enumTypeId="EmailType"/> -->
+            
+             <!-- Print Job Status -->
+<!--             <moqui.basic.StatusType description="Print Job Status" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" 
+	    pkValue="PrintJob" locale="zh_CN" localized="打印工作状态"/>
+	    
+<!--             <moqui.basic.StatusItem description="Not Sent" sequenceNum="1" statusId="PtjNotSent" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjNotSent" locale="zh_CN" localized="没有发送"/>
+	    
+<!--             <moqui.basic.StatusItem description="Send Failed" sequenceNum="2" statusId="PtjSendFailed" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjSendFailed" locale="zh_CN" localized="发送失败"/>
+
+<!--             <moqui.basic.StatusItem description="Pending" sequenceNum="11" statusId="PtjPending" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjPending" locale="zh_CN" localized="等待"/>
+
+<!--             <moqui.basic.StatusItem description="Pending Held" sequenceNum="12" statusId="PtjPendingHeld" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjPendingHeld" locale="zh_CN" localized="待定保留"/>
+
+<!--             <moqui.basic.StatusItem description="Processing" sequenceNum="13" statusId="PtjProcessing" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjProcessing" locale="zh_CN" localized="处理中"/>
+
+<!--             <moqui.basic.StatusItem description="Processing Stopped" sequenceNum="14" statusId="PtjProcessingStopped" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjProcessingStopped" locale="zh_CN" localized="处理停止"/>
+
+<!--             <moqui.basic.StatusItem description="Completed" sequenceNum="15" statusId="PtjCompleted" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjCompleted" locale="zh_CN" localized="已完成"/>
+
+<!--             <moqui.basic.StatusItem description="Aborted" sequenceNum="18" statusId="PtjAborted" statusTypeId="PrintJob"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjAborted" locale="zh_CN" localized="异常退出"/>
+
+<!--             <moqui.basic.StatusItem description="Canceled" sequenceNum="19" statusId="PtjCanceled" statusTypeId="PrintJob"/> -->
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
+	    pkValue="PtjCanceled" locale="zh_CN" localized="已取消"/>
+                                    
+                         	        
+</entity-facade-xml>
