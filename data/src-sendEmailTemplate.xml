@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- sendEmailTemplate.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailTemplate record found for ID [${emailTemplateId}]" localized="邮件模板记录EmailTemplate[${emailTemplateId}]未定义"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailServer record found for EmailTemplate [${emailTemplateId}]" localized="邮件模板EmailTemplate[${emailTemplateId}]中定义的邮件服务器未定义"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="SMTP Host is empty for EmailServer [${emailServer.emailServerId}]" localized="邮件服务器EmailServer [${emailServer.emailServerId}]设置中的SMTP主机不能为空"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="From address is empty for EmailTemplate [${emailTemplateId}]" localized="邮件模板EmailTemplate [${emailTemplateId}]设置中的From地址不能为空"/>
+
+
+</entity-facade-xml>

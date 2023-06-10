@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- =============== Data Size =============== -->
+<!--
+    <moqui.basic.Uom abbreviation="b" description="Bit" uomId="DATA_b" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Kb" description="Kilobit" uomId="DATA_Kb" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Mb" description="Megabit" uomId="DATA_Mb" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Gb" description="Gigabit" uomId="DATA_Gb" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Tb" description="Terabit" uomId="DATA_Tb" uomTypeEnumId="UT_DATA_MEASURE"/>
+-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_b" locale="zh_CN" localized="比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Kb" locale="zh_CN" localized="千比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Mb" locale="zh_CN" localized="兆比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Gb" locale="zh_CN" localized="吉比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_Tb" locale="zh_CN" localized="太比特"/>
+
+<!--
+    <moqui.basic.Uom abbreviation="B" description="Byte" uomId="DATA_B" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="KB" description="Kilobyte" uomId="DATA_KB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="MB" description="Megabyte" uomId="DATA_MB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="GB" description="Gigabyte" uomId="DATA_GB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="TB" description="Terabyte" uomId="DATA_TB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="PB" description="Petabyte" uomId="DATA_PB" uomTypeEnumId="UT_DATA_MEASURE"/>
+-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_B" locale="zh_CN" localized="字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_KB" locale="zh_CN" localized="千字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_MB" locale="zh_CN" localized="兆字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_GB" locale="zh_CN" localized="吉字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_TB" locale="zh_CN" localized="太字节"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATA_PB" locale="zh_CN" localized="拍字节"/>
+<!--    20230515，暂无对应单位，先不翻译-->
+<!--
+    <moqui.basic.Uom abbreviation="Kib" description="Kibit" uomId="DATA_Kib" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Mib" description="Mibit" uomId="DATA_Mib" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Gib" description="Gibit" uomId="DATA_Gib" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Tib" description="Tibit" uomId="DATA_Tib" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Pib" description="Pibit" uomId="DATA_Pib" uomTypeEnumId="UT_DATA_MEASURE"/>
+
+    <moqui.basic.Uom abbreviation="KiB" description="Kibibyte" uomId="DATA_KiB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="MiB" description="Mebibyte" uomId="DATA_MiB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="GiB" description="Gibibyte" uomId="DATA_GiB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="TiB" description="Tebibyte" uomId="DATA_TiB" uomTypeEnumId="UT_DATA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="PiB" description="Pebibyte" uomId="DATA_PiB" uomTypeEnumId="UT_DATA_MEASURE"/>-->
+
+    <!-- =============== Data Speed =============== -->
+<!--
+    <moqui.basic.Uom abbreviation="bps" description="Bit-per-second" uomId="DATASPD_bps" uomTypeEnumId="UT_DATASPD_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Kbps" description="Kilobit-per-second" uomId="DATASPD_Kbps" uomTypeEnumId="UT_DATASPD_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Mbps" description="Megabit-per-second" uomId="DATASPD_Mbps" uomTypeEnumId="UT_DATASPD_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Gbps" description="Gigabit-per-second" uomId="DATASPD_Gbps" uomTypeEnumId="UT_DATASPD_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Tbps" description="Terabit-per-second" uomId="DATASPD_Tbps" uomTypeEnumId="UT_DATASPD_MEASURE"/>
+-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATASPD_bps" locale="zh_CN" localized="每秒比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATASPD_Kbps" locale="zh_CN" localized="每秒千比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATASPD_Mbps" locale="zh_CN" localized="每秒兆比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATASPD_Gbps" locale="zh_CN" localized="每秒吉比特"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="DATASPD_Tbps" locale="zh_CN" localized="每秒太比特"/>
+
+
+
+    <!-- =============== Time/Frequency =============== -->
+<!--
+    <moqui.basic.Uom abbreviation="ms" description="Milli-Second" uomId="TF_ms" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="s" description="Second" uomId="TF_s" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="min" description="Minute" uomId="TF_min" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="hr" description="Hour" uomId="TF_hr" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="day" description="Day" uomId="TF_day" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="wk" description="Week" uomId="TF_wk" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mon" description="Month" uomId="TF_mon" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="yr" description="Year" uomId="TF_yr" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="decade" description="Decade" uomId="TF_decade" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="score" description="Score" uomId="TF_score" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="century" description="Century" uomId="TF_century" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+    <moqui.basic.Uom abbreviation="millenium" description="Millenium" uomId="TF_millenium" uomTypeEnumId="UT_TIME_FREQ_MEASURE"/>
+-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_ms" locale="zh_CN" localized="毫秒"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_s" locale="zh_CN" localized="秒"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_min" locale="zh_CN" localized="分"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_hr" locale="zh_CN" localized="时"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_day" locale="zh_CN" localized="天"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_wk" locale="zh_CN" localized="周"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_mon" locale="zh_CN" localized="月"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_yr" locale="zh_CN" localized="年"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_decade" locale="zh_CN" localized="十年"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_score" locale="zh_CN" localized="二十年"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_century" locale="zh_CN" localized="世纪"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="TF_millenium" locale="zh_CN" localized="千年"/>
+
+
+    <!-- =============== Length =============== -->
+<!--    <moqui.basic.Uom abbreviation="A" description="Angstrom" uomId="LEN_A" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_A" locale="zh_CN" localized="埃米"/>
+<!--    <moqui.basic.Uom abbreviation="cb" description="Cable" uomId="LEN_cb" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_cb" locale="zh_CN" localized="链"/>
+<!--    <moqui.basic.Uom abbreviation="cm" description="Centimeter" uomId="LEN_cm" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_cm" locale="zh_CN" localized="厘米"/>
+
+<!--    <moqui.basic.Uom abbreviation="chG" description="Chain (Gunter's/surveyor's)" uomId="LEN_chG" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_chG" locale="zh_CN" localized="冈特测链"/>
+
+<!--    <moqui.basic.Uom abbreviation="chR" description="Chain (Ramden's/engineer's)" uomId="LEN_chR" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_chR" locale="zh_CN" localized="Chain (Ramden's/engineer's)"/>
+
+<!--    <moqui.basic.Uom abbreviation="dm" description="Decimeter" uomId="LEN_dm" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_dm" locale="zh_CN" localized="分米"/>
+
+<!--    <moqui.basic.Uom abbreviation="dam" description="Dekameter" uomId="LEN_dam" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_dam" locale="zh_CN" localized="十米"/>
+
+<!--    <moqui.basic.Uom abbreviation="fm" description="Fathom" uomId="LEN_fm" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fm" locale="zh_CN" localized="英寻"/>
+
+<!--    <moqui.basic.Uom abbreviation="ft" description="Foot" uomId="LEN_ft" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_ft" locale="zh_CN" localized="英尺"/>
+
+<!--    <moqui.basic.Uom abbreviation="fur" description="Furlong" uomId="LEN_fur" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="浪"/>
+
+<!--    <moqui.basic.Uom abbreviation="hand" description="Hand (horse's height)" uomId="LEN_hand" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="掌"/>
+
+<!--    <moqui.basic.Uom abbreviation="in" description="Inch" uomId="LEN_in" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="英寸"/>
+
+<!--    <moqui.basic.Uom abbreviation="km" description="Kilometer" uomId="LEN_km" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="公里"/>
+
+<!--    <moqui.basic.Uom abbreviation="league" description="League" uomId="LEN_league" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="里格"/>
+
+<!--    <moqui.basic.Uom abbreviation="lnG" description="Link (Gunter's)" uomId="LEN_lnG" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="Link (Gunter's)"/>
+
+<!--    <moqui.basic.Uom abbreviation="lnR" description="Link (Ramden's)" uomId="LEN_lnR" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="Link (Ramden's)"/>
+
+<!--    <moqui.basic.Uom abbreviation="m" description="Meter" uomId="LEN_m" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="米"/>
+
+<!--    <moqui.basic.Uom abbreviation="u" description="Micrometer (Micron)" uomId="LEN_u" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="微米"/>
+
+<!--    <moqui.basic.Uom abbreviation="mi" description="Mile (statute/land)" uomId="LEN_mi" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="英里"/>
+
+    <moqui.basic.Uom abbreviation="nmi" description="Mile (nautical/sea)" uomId="LEN_nmi" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="浪"/>
+
+<!--    <moqui.basic.Uom abbreviation="mm" description="Millimeter" uomId="LEN_mm" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="毫米"/>
+
+<!--    <moqui.basic.Uom abbreviation="mil" description="Mil (Milli-inch)" uomId="LEN_mil" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="密尔"/>
+
+<!--    <moqui.basic.Uom abbreviation="point" description="Point (type size)" uomId="LEN_point" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="磅"/>
+
+<!--    <moqui.basic.Uom abbreviation="pica" description="Pica (type size)" uomId="LEN_pica" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="派卡"/>
+
+<!--    <moqui.basic.Uom abbreviation="rd" description="Rod" uomId="LEN_rd" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="杆"/>
+
+<!--    <moqui.basic.Uom abbreviation="yd" description="Yard" uomId="LEN_yd" uomTypeEnumId="UT_LENGTH_MEASURE"/>-->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Uom" fieldName="description" pkValue="LEN_fur" locale="zh_CN" localized="码"/>
+
+    <!-- =============== Velocity =============== -->
+    <moqui.basic.Uom abbreviation="m/h" description="Meters per hour" uomId="VEL_m_hr" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="m/min" description="Meters per minute" uomId="VEL_m_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="m/s" description="Meters per second" uomId="VEL_m_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ft/hr" description="Feet per hour" uomId="VEL_ft_hr" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ft/min" description="Feet per minute" uomId="VEL_ft_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ft/s" description="Feet per second" uomId="VEL_ft_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="fur/hr" description="Furlongs per hour" uomId="VEL_fur_hr" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="fur/min" description="Furlongs per minute" uomId="VEL_fur_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="fur/s" description="Furlongs per second" uomId="VEL_fur_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="in/hr" description="Inches per hour" uomId="VEL_in_hr" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="in/min" description="Inches per minute" uomId="VEL_in_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="in/s" description="Inches per second" uomId="VEL_in_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kn" description="Knots" uomId="VEL_kn" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="M" description="Mach" uomId="VEL_M" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="MPH" description="Miles per hour" uomId="VEL_MPH" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mi/min" description="Miles per minute" uomId="VEL_mi_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mi/s" description="Miles per second" uomId="VEL_mi_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="KPH" description="Kilometers per hour" uomId="VEL_KPH" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="km/min" description="Kilometers per minute" uomId="VEL_km_min" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="km/s" description="Kilometers per second" uomId="VEL_km_s" uomTypeEnumId="UT_VELOCITY_MEASURE"/>
+
+
+    <!-- =============== Area =============== -->
+    <moqui.basic.Uom abbreviation="A" description="Acre" uomId="AREA_A" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="a" description="Are" uomId="AREA_a" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ha" description="Hectare" uomId="AREA_ha" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="cm2" description="Square Centimeter" uomId="AREA_cm2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ft2" description="Square Foot" uomId="AREA_ft2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="in2" description="Square Inch" uomId="AREA_in2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="km2" description="Square Kilometer" uomId="AREA_km2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="m2" description="Square Meter" uomId="AREA_m2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mi2" description="Square Mile" uomId="AREA_mi2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mm2" description="Square Millimeter" uomId="AREA_mm2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="rd2" description="Square Rod" uomId="AREA_rd2" uomTypeEnumId="UT_AREA_MEASURE"/>
+    <moqui.basic.Uom abbreviation="yd2" description="Square Yard" uomId="AREA_yd2" uomTypeEnumId="UT_AREA_MEASURE"/>
+
+    <!-- =============== Volume (Liquid) =============== -->
+    <moqui.basic.Uom abbreviation="bbl" description="Barrel (US)" uomId="VLIQ_bbl" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="cup" description="Cup" uomId="VLIQ_cup" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="dr" description="Dram (US)" uomId="VLIQ_dr" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="gi" description="Gill (1/4 UK pint)" uomId="VLIQ_gi" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="gal" description="Gallon (UK)" uomId="VLIQ_galUK" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="gal" description="Gallon (US)" uomId="VLIQ_galUS" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="L" description="Liter" uomId="VLIQ_L" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="ml" description="Milliliter" uomId="VLIQ_ml" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="fl. oz (UK)" description="Ounce, fluid (UK)" uomId="VLIQ_ozUK" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="fl. oz (US)" description="Ounce, fluid (US)" uomId="VLIQ_ozUS" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="pt (UK)" description="Pint (UK)" uomId="VLIQ_ptUK" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="pt (US)" description="Pint (US)" uomId="VLIQ_ptUS" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="qt" description="Quart" uomId="VLIQ_qt" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="Tbs" description="Tablespoon" uomId="VLIQ_Tbs" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.Uom abbreviation="tsp" description="Teaspoon" uomId="VLIQ_tsp" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+
+    <!-- =============== Volume (Dry) =============== -->
+    <moqui.basic.Uom abbreviation="cm3" description="Cubic centimeter" uomId="VDRY_cm3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="ft3" description="Cubic foot" uomId="VDRY_ft3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="in3" description="Cubic inch" uomId="VDRY_in3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="m3" description="Cubic meter" uomId="VDRY_m3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="mm3" description="Cubic millimeter" uomId="VDRY_mm3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="ST" description="Stere (cubic meter)" uomId="VDRY_ST" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.Uom abbreviation="yd3" description="Cubic yard" uomId="VDRY_yd3" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+
+    <!-- =============== Density =============== -->
+    <moqui.basic.Uom abbreviation="kg/m3" description="Kilogram per cubic meter" uomId="DENS_kg_m3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="g/cm3" description="Gram per cubic centimeter " uomId="DENS_g_cm3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="oz/in3" description="Ounce per cubic inch " uomId="DENS_oz_in3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="oz/gal (UK)" description="Ounce per gallon (UK)" uomId="DENS_oz_galUK" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="oz/gal (US)" description="Ounce per gallon (US)" uomId="DENS_oz_galUS" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="lb/ft3" description="Pound per cubic foot" uomId="DENS_lb_ft3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="lb/in3" description="Pound per cubic inch" uomId="DENS_lb_in3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="lb/yd3" description="Pound per cubic yard" uomId="DENS_lb_yd3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="lb/gal (UK)" description="Pound per gallon (UK)" uomId="DENS_lb_galUK" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="lb/gal (US)" description="Pound per gallon (US)" uomId="DENS_lb_galUS" uomTypeEnumId="UT_DENSITY_MEAS"/>
+    <moqui.basic.Uom abbreviation="ton/yd3" description="Ton, long, per cubic yard" uomId="DENS_ton_yd3" uomTypeEnumId="UT_DENSITY_MEAS"/>
+
+
+    <!-- =============== Weight =============== -->
+    <moqui.basic.Uom abbreviation="dr avdp" description="Dram (avdp)" uomId="WT_dr_avdp" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="gr" description="Grain" uomId="WT_gr" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="g" description="Gram" uomId="WT_g" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kg" description="Kilogram" uomId="WT_kg" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mg" description="Milligram" uomId="WT_mg" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="oz" description="Ounce (avdp)" uomId="WT_oz" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="oz tr" description="Ounce (troy)" uomId="WT_oz_tr" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="dwt" description="Pennyweight" uomId="WT_dwt" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="lb" description="Pound (avdp)" uomId="WT_lb" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="st" description="Stone" uomId="WT_st" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="lt" description="Ton (long or British)" uomId="WT_lt" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mt" description="Ton (metric)" uomId="WT_mt" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.Uom abbreviation="sh t" description="Ton (short)" uomId="WT_sh_t" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+
+    <!-- =============== Power =============== -->
+    <moqui.basic.Uom abbreviation="kw" description="Kilowatt" uomId="PW_kw" uomTypeEnumId="UT_POWER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="w" description="Watt" uomId="PW_w" uomTypeEnumId="UT_POWER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="hp" description="Horsepower (mechanical)" uomId="PW_hp" uomTypeEnumId="UT_POWER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="BTU/hr" description="BTU per hour" uomId="PW_BTU_hr" uomTypeEnumId="UT_POWER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="cal/sec" description="Calorie per second" uomId="PW_cal_sec" uomTypeEnumId="UT_POWER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="bhp" description="Boiler horsepower" uomId="PW_bhp" uomTypeEnumId="UT_POWER_MEASURE"/>
+
+    <!-- =============== Energy =============== -->
+    <moqui.basic.Uom abbreviation="J" description="Joule (absolute)" uomId="EN_J" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="cal" description="Calorie IT" uomId="EN_cal" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kcal" description="Kilocalorie" uomId="EN_kcal" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="BTU" description="British Thermal Unit" uomId="EN_BTU" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="hp*h" description="Horsepower-hour" uomId="EN_hp_h" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kw*h" description="Kilowatt-hour" uomId="EN_kw_h" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ft*lbf" description="Foot-pound(force)" uomId="EN_ft_lbf" uomTypeEnumId="UT_ENERGY_MEASURE"/>
+
+    <!-- =============== Pressure =============== -->
+    <moqui.basic.Uom abbreviation="atm" description="Atmosphere" uomId="PRES_atm" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="at" description="Atmosphere (Technical)" uomId="PRES_at" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="bar" description="Bar" uomId="PRES_bar" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mbar" description="Millibar" uomId="PRES_mbar" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="hPa" description="Hectopascal" uomId="PRES_hPa" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="inHg" description="Inch of mercury" uomId="PRES_inHg" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mmHg" description="Millimeter of mercury" uomId="PRES_mmHg" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kg/cm2" description="Kilogram per square centimeter" uomId="PRES_kg_cm2" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kg/m2" description="Kilogram per square meter" uomId="PRES_kg_m2" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="kPa" description="Kilopascal" uomId="PRES_kPa" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="Pa" description="Pascal" uomId="PRES_Pa" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="psf" description="Pound per square foot" uomId="PRES_psf" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="psi" description="Pound per square inch" uomId="PRES_psi" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+    <moqui.basic.Uom abbreviation="torr" description="Torr" uomId="PRES_torr" uomTypeEnumId="UT_PRESSURE_MEASURE"/>
+
+
+    <!-- =============== Temperature =============== -->
+    <moqui.basic.Uom abbreviation="K" description="Kelvin" uomId="TEMP_K" uomTypeEnumId="UT_TEMP_MEASURE"/>
+    <moqui.basic.Uom abbreviation="C" description="Degrees Celsius" uomId="TEMP_C" uomTypeEnumId="UT_TEMP_MEASURE"/>
+    <moqui.basic.Uom abbreviation="F" description="Degrees Fahrenheit" uomId="TEMP_F" uomTypeEnumId="UT_TEMP_MEASURE"/>
+
+
+    <!-- =============== Other =============== -->
+    <moqui.basic.Uom abbreviation="A" description="Ampere - Electric current" uomId="OTH_A" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="cd" description="Candela - Luminosity (intensity of light)" uomId="OTH_cd" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="mol" description="Mole - Substance (molecule)" uomId="OTH_mol" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="RPM" description="Revolutions Per Minute" uomId="OTH_RPM" uomTypeEnumId="UT_OTHER_MEASURE"/>
+
+    <moqui.basic.Uom abbreviation="ct" description="Count" uomId="OTH_ct" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="ea" description="Each/Piece" uomId="OTH_ea" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="pp" description="Per Person" uomId="OTH_pp" uomTypeEnumId="UT_OTHER_MEASURE"/>
+    <moqui.basic.Uom abbreviation="pct" description="Percent" uomId="OTH_pct" uomTypeEnumId="UT_OTHER_MEASURE"/>
+
+    <!-- =============== UOM Dimension Types and Type Groups =============== -->
+    <moqui.basic.UomDimensionType description="Quantity Included" uomDimensionTypeId="QuantityIncluded" defaultUomId="OTH_ct"/>
+    <moqui.basic.UomDimensionType description="Pieces Included" uomDimensionTypeId="PiecesIncluded" defaultUomId="OTH_ea"/>
+    <moqui.basic.UomDimensionType description="Weight" uomDimensionTypeId="Weight" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Height" uomDimensionTypeId="Height" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Width" uomDimensionTypeId="Width" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Depth" uomDimensionTypeId="Depth" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Volume - Dry" uomDimensionTypeId="Volume" uomTypeEnumId="UT_VOLUME_DRY_MEAS"/>
+    <moqui.basic.UomDimensionType description="Volume - Liquid" uomDimensionTypeId="VolumeLiquid" uomTypeEnumId="UT_VOLUME_LIQ_MEAS"/>
+    <moqui.basic.UomDimensionType description="Diameter" uomDimensionTypeId="Diameter" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Shipping Weight" uomDimensionTypeId="ShippingWeight" uomTypeEnumId="UT_WEIGHT_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Shipping Height" uomDimensionTypeId="ShippingHeight" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Shipping Width" uomDimensionTypeId="ShippingWidth" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+    <moqui.basic.UomDimensionType description="Shipping Depth" uomDimensionTypeId="ShippingDepth" uomTypeEnumId="UT_LENGTH_MEASURE"/>
+
+
+</entity-facade-xml>

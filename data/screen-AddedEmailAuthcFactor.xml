@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="An email method for authentication has been added for ${userEmail}"
+                                  localized="为 ${userEmail} 添加了邮件认证方式" />
+
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="This email is valid until ${thruDateString}"
+                                  localized="这封邮件在 ${thruDateString} 之前均有效" />
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="to ${ec.resource.expand('PartyNameTemplate','',toParty)}"
+                                  localized="收信人：${ec.resource.expand('PartyNameTemplate','',toParty)} " />
+    <moqui.basic.LocalizedMessage locale="zh_CN"
+                                  original="If you didn't request this email, please contact administrator and reset your password."
+                                  localized="如果你没有申请这封邮件，请和系统管理员联系，重新设置你的账户密码。" />
+</entity-facade-xml>

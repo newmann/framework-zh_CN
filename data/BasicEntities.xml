@@ -20,15 +20,15 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.Enumeration description="Purchased Data" enumId="DST_PURCHASED_DATA" enumTypeId="DataSourceType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="DST_PURCHASED_DATA" locale="zh_CN" localized="采购数据"/>  
+	    pkValue="DST_PURCHASED_DATA" locale="zh_CN" localized="采购来的数据"/>
 
 <!--             <moqui.basic.Enumeration description="Customer Data Entry" enumId="DST_CUSTOMER_ENTRY" enumTypeId="DataSourceType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="DST_CUSTOMER_ENTRY" locale="zh_CN" localized="客户数据入口"/>  
+	    pkValue="DST_CUSTOMER_ENTRY" locale="zh_CN" localized="客户录入数据"/>
 
 <!--             <moqui.basic.Enumeration description="Internal Data Entry (employees, etc)" enumId="DST_INTERNAL_ENTRY" enumTypeId="DataSourceType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="DST_INTERNAL_ENTRY" locale="zh_CN" localized="内部数据入口（员工，等等）"/>  
+	    pkValue="DST_INTERNAL_ENTRY" locale="zh_CN" localized="内部录入数据"/>
 
 <!--             <moqui.basic.Enumeration description="Mailing List Sign-up" enumId="DST_MAILING_SIGNUP" enumTypeId="DataSourceType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -97,7 +97,7 @@ along with this software (see the LICENSE.md file). If not, see
             <!-- General Geographic Groupings -->
 <!--             <moqui.basic.Enumeration description="Group" enumId="GEOT_GROUP" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="GEOT_GROUP" locale="zh_CN" localized="分组"/>  
+	    pkValue="GEOT_GROUP" locale="zh_CN" localized="组"/>
 	    
 <!--             <moqui.basic.Enumeration description="Region" enumId="GEOT_REGION" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -130,11 +130,11 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.Enumeration description="County-City" enumId="GEOT_COUNTY_CITY" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="GEOT_COUNTY_CITY" locale="zh_CN" localized="县城"/>  
+	    pkValue="GEOT_COUNTY_CITY" locale="zh_CN" localized="县级市"/>
 
 <!--             <moqui.basic.Enumeration description="Municipality" enumId="GEOT_MUNICIPALITY" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="GEOT_MUNICIPALITY" locale="zh_CN" localized="自治市"/>  
+	    pkValue="GEOT_MUNICIPALITY" locale="zh_CN" localized="直辖市"/>
 
 <!--             <moqui.basic.Enumeration description="Province" enumId="GEOT_PROVINCE" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -142,7 +142,7 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.Enumeration description="Territory" enumId="GEOT_TERRITORY" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="GEOT_TERRITORY" locale="zh_CN" localized="领土"/>  
+	    pkValue="GEOT_TERRITORY" locale="zh_CN" localized="特区"/>
 
 <!--             <moqui.basic.EnumerationType description="Geo Assoc Type" enumTypeId="GeoAssocType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
@@ -176,10 +176,10 @@ along with this software (see the LICENSE.md file). If not, see
 	    pkValue="UT_CURRENCY_MEASURE" locale="zh_CN" localized="货币"/>  
 <!--             <moqui.basic.Enumeration description="Data Size" enumId="UT_DATA_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_DATA_MEASURE" locale="zh_CN" localized="数据量"/>  
+	    pkValue="UT_DATA_MEASURE" locale="zh_CN" localized="数据大小"/>
 <!--             <moqui.basic.Enumeration description="Data Speed" enumId="UT_DATASPD_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_DATASPD_MEASURE" locale="zh_CN" localized="数据速率"/>  
+	    pkValue="UT_DATASPD_MEASURE" locale="zh_CN" localized="数据速度"/>
 <!--             <moqui.basic.Enumeration description="Time/Frequency" enumId="UT_TIME_FREQ_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
 	    pkValue="UT_TIME_FREQ_MEASURE" locale="zh_CN" localized="时间/频率"/>
@@ -194,15 +194,15 @@ along with this software (see the LICENSE.md file). If not, see
 	    
 <!--             <moqui.basic.Enumeration description="Area" enumId="UT_AREA_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_AREA_MEASURE" locale="zh_CN" localized="区域"/>
+	    pkValue="UT_AREA_MEASURE" locale="zh_CN" localized="面积"/>
 	      
 <!--             <moqui.basic.Enumeration description="Liquid Volume" enumId="UT_VOLUME_LIQ_MEAS" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_VOLUME_LIQ_MEAS" locale="zh_CN" localized="液体体积"/>
+	    pkValue="UT_VOLUME_LIQ_MEAS" locale="zh_CN" localized="容积"/>
 	      
 <!--             <moqui.basic.Enumeration description="Dry Volume" enumId="UT_VOLUME_DRY_MEAS" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_VOLUME_DRY_MEAS" locale="zh_CN" localized="干容积"/>
+	    pkValue="UT_VOLUME_DRY_MEAS" locale="zh_CN" localized="体积"/>
 	      
 <!--             <moqui.basic.Enumeration description="Density" enumId="UT_DENSITY_MEAS" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -226,7 +226,7 @@ along with this software (see the LICENSE.md file). If not, see
 	    pkValue="UT_TEMP_MEASURE" locale="zh_CN" localized="温度"/>  
 <!--             <moqui.basic.Enumeration description="Other" enumId="UT_OTHER_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_OTHER_MEASURE" locale="zh_CN" localized="其他"/>  
+	    pkValue="UT_OTHER_MEASURE" locale="zh_CN" localized="其它度量类型"/>
 	    
 	                
 <!--              <moqui.basic.EnumerationType description="Uom Conversion Purpose" enumTypeId="UomConversionPurpose"/> -->
@@ -295,16 +295,16 @@ along with this software (see the LICENSE.md file). If not, see
 	                
 <!--             <moqui.basic.Enumeration description="System" enumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_SYSTEM" locale="zh_CN" localized="系统"/>
+	    pkValue="EMT_SYSTEM" locale="zh_CN" localized="系统邮件"/>
 	      
 	    
 <!--             <moqui.basic.Enumeration description="Password Reset" enumId="EMT_PWD_RESET" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_PWD_RESET" locale="zh_CN" localized="重置密码"/>
+	    pkValue="EMT_PWD_RESET" locale="zh_CN" localized="密码重置邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Single Use Code" enumId="EMT_SINGLE_USE_CODE" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_SINGLE_USE_CODE" locale="zh_CN" localized="单次使用代码"/>
+	    pkValue="EMT_SINGLE_USE_CODE" locale="zh_CN" localized="单次使用代码邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Added Email Authentication Type" enumId="EMT_ADDED_EMAIL_AUTHC_FACTOR" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -316,32 +316,35 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.Enumeration description="Notification" enumId="EMT_NOTIFICATION" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_NOTIFICATION" locale="zh_CN" localized="提醒"/>
+	    pkValue="EMT_NOTIFICATION" locale="zh_CN" localized="提醒邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Screen Render" enumId="EMT_SCREEN_RENDER" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
 	    pkValue="EMT_SCREEN_RENDER" locale="zh_CN" localized="界面渲染"/>
 
             <!-- <moqui.basic.Enumeration description="Error Notice" enumId="EMT_ERROR_NOTICE" parentEnumId="EMT_SYSTEM" enumTypeId="EmailType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+                                      pkValue="EMT_ERROR_NOTICE" locale="zh_CN" localized="错误提示邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Registration Confirmation" enumId="EMT_REG_CONFIRM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_REG_CONFIRM" locale="zh_CN" localized="注册确认"/>
+	    pkValue="EMT_REG_CONFIRM" locale="zh_CN" localized="注册确认邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Update Personal Info Confirmation" enumId="EMT_UPD_INFO_CONFIRM" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_UPD_INFO_CONFIRM" locale="zh_CN" localized="个人信息修改确认"/>
+	    pkValue="EMT_UPD_INFO_CONFIRM" locale="zh_CN" localized="更新个人信息确认邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Email Address Verification" enumId="EMT_EMAIL_VERIFY" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_EMAIL_VERIFY" locale="zh_CN" localized="邮件地址确认"/>
+	    pkValue="EMT_EMAIL_VERIFY" locale="zh_CN" localized="邮箱确认邮件"/>
 
 <!--             <moqui.basic.Enumeration description="Account Invitation" enumId="EMT_ACCOUNT_INVITE" enumTypeId="EmailType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="EMT_ACCOUNT_INVITE" locale="zh_CN" localized="账户邀请"/>
+	    pkValue="EMT_ACCOUNT_INVITE" locale="zh_CN" localized="账号注册邀请邮件"/>
 
             <!-- <moqui.basic.Enumeration description="Contact Us Notification" enumId="EMT_CONACT_US_NOT" enumTypeId="EmailType"/> -->
-            
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+                                      pkValue="EMT_CONACT_US_NOT" locale="zh_CN" localized="联系我们通知邮件"/>
              <!-- Print Job Status -->
 <!--             <moqui.basic.StatusType description="Print Job Status" statusTypeId="PrintJob"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" 

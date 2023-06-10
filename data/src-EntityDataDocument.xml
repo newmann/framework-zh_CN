@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- EntityDataDocument.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="File ${filename} already exists." localized="文件 ${filename}已经存在。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Wrote ${valuesWritten} documents to file ${filename}" localized="已把${valuesWritten}文档写进了文件${filename}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Path ${dirname} is not a directory." localized="路径${dirname}必须是个目录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="File ${filename} already exists, skipping document ${dataDocumentId}." localized="文件 ${filename}已存在,跳过文档${dataDocumentId}."/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Wrote ${valuesWritten} records to file ${filename}" localized="已把${valuesWritten}记录写进了文件${filename}"/>
+
+
+</entity-facade-xml>

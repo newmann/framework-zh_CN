@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- BaseResourceReference.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not looking for child file at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported" localized="因不支持 exists, isFile,等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子文件"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not looking for child directory at [${relativePath}] under space root page [${location}] because exists, isFile, etc are not supported" localized="因不支持 exists, isFile等等，未进行在根页面[${location}]下的目录[${relativePath}]查找子目录"/>
+
+
+</entity-facade-xml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <!-- pollEmailServer.groovy的翻译 -->
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No EmailServer found for ID [${emailServerId}]" localized="找不到对应ID为${emailServerId}的EmailServer记录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no storeHost" localized="EmailServer [${emailServerId}]未定义邮箱主机地址"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no mailUsername" localized="EmailServer [${emailServerId}]未定义邮箱用户名"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="EmailServer [${emailServerId}] has no mailPassword" localized="EmailServer [${emailServerId}]未定义邮箱密码"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No ${storeFolder} folder found" localized="找不到邮件主机上的文件夹${storeFolder}"/>
+
+
+</entity-facade-xml>

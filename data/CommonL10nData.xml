@@ -26,20 +26,148 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Name" locale="zh_CN" localized="名称"/>
 
     <moqui.basic.LocalizedMessage original="Status" locale="zh_CN" localized="状态"/>
+    <moqui.basic.LocalizedMessage original="Status History" locale="zh_CN" localized="状态历史"/>
 
     <moqui.basic.LocalizedMessage original="Type" locale="zh_CN" localized="类型"/>
 
     <moqui.basic.LocalizedMessage original="Update" locale="zh_CN" localized="更新"/>
 
     <moqui.basic.LocalizedMessage original="Detail" locale="zh_CN" localized="明细"/>
+    <moqui.basic.LocalizedMessage original="Items" locale="zh_CN" localized="明细"/>
 
-<!-- 移到BasicEntities.xml中统一维护
-     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_CITY" locale="zh_CN" localized="市"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Saving" localized="保存中..."/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Cancel" localized="取消"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save" localized="保存"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Options" localized="查找选项"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Saved Finds" localized="已保存查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save New Find" localized="保存新的查找"/>
+    <moqui.basic.LocalizedMessage localized="不显示" original="Do Not Display" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="列" original="Column" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="(升)" original="(Asc)" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="(降)" original="(Desc)" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="拖放列调整顺序，或拖到不显示。" original="Drag fields to the desired column or do not display" locale="zh" />
+    <moqui.basic.LocalizedMessage localized="当前使用的查找:" original="Active Saved Find:" locale="zh" />
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No find parameters, choose some to save a new find or update existing" localized="没有查找变量，先选择查找变量进行保存或者更新现有的"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Update to Current" localized="更新到当前"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Delete" localized="删除"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Do Find" localized="进行查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Parameters" localized="查找变量"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Order By" localized="排序次序"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Asc" localized="升序"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Desc" localized="降序"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Column Fields" localized="列字段"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save Columns" localized="保存列"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reset to Default" localized="重置到默认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Export Fixed-Width Plain Text" localized="导出固定宽度纯文本"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Line Characters" localized="行字符"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Line Wrap?" localized="自动换行？"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Save to Filename" localized="保存文件名"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Export Text" localized="导出文本"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Generate PDF" localized="生成PDF文件"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Page Layout" localized="页面布局"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Clear Current Find" localized="清空当前查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Columns" localized="列"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Page #" localized="页 #"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Go##Page" localized="跳转到"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="CSV" localized="CSV"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Text" localized="文本"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PDF" localized="PDF"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="From" localized="从"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Thru" localized="到"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="This" localized="当"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Last" localized="上"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Next" localized="下"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Day" localized="天"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Week" localized="周"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Month" localized="月"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Year" localized="年"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Not" localized="不"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Equals" localized="等于"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Like" localized="类似"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Contains" localized="包含"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Begins With" localized="以...开始"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Empty" localized="为空"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Ignore Case" localized="忽略大小写"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Clear Parameters" localized="清空参数"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No results found" localized="未找到记录"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Options required to view results" localized="必须输入查询条件进行查找"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Documentation" localized="文档"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Close" localized="关闭"/>
 
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_STATE" locale="zh_CN" localized="州"/>
+    <moqui.basic.LocalizedMessage original="ID" locale="zh_CN" localized="编号"/>
 
-    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_COUNTRY" locale="zh_CN" localized="国家"/>
- -->
+    <moqui.basic.LocalizedMessage original="Emails" locale="zh_CN" localized="邮件"/>
+    <moqui.basic.LocalizedMessage original="Email" locale="zh_CN" localized="邮件"/>
+    <moqui.basic.LocalizedMessage original="Email Address" locale="zh_CN" localized="邮件地址"/>
+    <moqui.basic.LocalizedMessage original="Email Addresses" locale="zh_CN" localized="邮件地址"/>
+
+    <moqui.basic.LocalizedMessage original="Disabled" locale="zh_CN" localized="禁用"/>
+
+    <moqui.basic.LocalizedMessage original="Locale" locale="zh_CN" localized="区域"/>
+    <moqui.basic.LocalizedMessage original="Default Locale" locale="zh_CN" localized="缺省区域"/>
+    <moqui.basic.LocalizedMessage original="Localization" locale="zh_CN" localized="本地化"/>
+
+    <moqui.basic.LocalizedMessage original="Localized" locale="zh_CN" localized="翻译"/>
+    <moqui.basic.LocalizedMessage original="Original" locale="zh_CN" localized="原本"/>
+
+    <moqui.basic.LocalizedMessage original="Time Zone" locale="zh_CN" localized="时区"/>
+
+    <moqui.basic.LocalizedMessage original="Time" locale="zh_CN" localized="时间"/>
+    <moqui.basic.LocalizedMessage original="Hours" locale="zh_CN" localized="小时"/>
+
+    <moqui.basic.LocalizedMessage original="Clear" locale="zh_CN" localized="清除"/>
+    <moqui.basic.LocalizedMessage original="Clear All" locale="zh_CN" localized="全部清除"/>
+    <moqui.basic.LocalizedMessage original="Site Map" locale="zh_CN" localized="网站地图"/>
+
+    <moqui.basic.LocalizedMessage original="Applications" locale="zh_CN" localized="应用"/>
+
+    <moqui.basic.LocalizedMessage original="Total" locale="zh_CN" localized="合计"/>
+    <moqui.basic.LocalizedMessage original="Any" locale="zh_CN" localized="不限"/>
+
+    <moqui.basic.LocalizedMessage original="Min" locale="zh_CN" localized="最小"/>
+    <moqui.basic.LocalizedMessage original="Max" locale="zh_CN" localized="最大"/>
+    <moqui.basic.LocalizedMessage original="Avg" locale="zh_CN" localized="平均"/>
+    <moqui.basic.LocalizedMessage original="Std Dev" locale="zh_CN" localized="标准差"/>
+
+    <moqui.basic.LocalizedMessage original="Entity" locale="zh_CN" localized="实体"/>
+    <moqui.basic.LocalizedMessage original="Key" locale="zh_CN" localized="键值"/>
+    <moqui.basic.LocalizedMessage original="Value" locale="zh_CN" localized="值"/>
+    <moqui.basic.LocalizedMessage original="Unit" locale="zh_CN" localized="单位"/>
+
+    <moqui.basic.LocalizedMessage original="Qty" locale="zh_CN" localized="数量"/>
+    <moqui.basic.LocalizedMessage original="Quantity" locale="zh_CN" localized="数量"/>
+
+    <moqui.basic.LocalizedMessage original="Action" locale="zh_CN" localized="操作"/>
+
+    <moqui.basic.LocalizedMessage original="Initial Status" locale="zh_CN" localized="初始状态"/>
+    <moqui.basic.LocalizedMessage original="Status Flow" locale="zh_CN" localized="状态流"/>
+    <moqui.basic.LocalizedMessage original="State" locale="zh_CN" localized="状态"/>
+
+    <moqui.basic.LocalizedMessage original="Audit Log" locale="zh_CN" localized="审计日志"/>
+    <moqui.basic.LocalizedMessage original="ID" locale="zh_CN" localized="编号"/>
+    <moqui.basic.LocalizedMessage original="Sequence" locale="zh_CN" localized="排序"/>
+    <moqui.basic.LocalizedMessage original="Seq Num" locale="zh_CN" localized="序号"/>
+
+    <moqui.basic.LocalizedMessage original="Apply" locale="zh_CN" localized="应用"/>
+
+    <moqui.basic.LocalizedMessage original="Calendar" locale="zh_CN" localized="日历"/>
+
+    <moqui.basic.LocalizedMessage original="Messages" locale="zh_CN" localized="消息"/>
+    <moqui.basic.LocalizedMessage original="Message" locale="zh_CN" localized="消息"/>
+    <moqui.basic.LocalizedMessage original="Entity Fields" locale="zh_CN" localized="实体字段"/>
+
+    <moqui.basic.LocalizedMessage original="Data Source" locale="zh_CN" localized="数据来源"/>
+
+    <moqui.basic.LocalizedMessage original="Parameters" locale="zh_CN" localized="参数"/>
+
+
+    <!-- 移到BasicEntities.xml中统一维护
+         <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_CITY" locale="zh_CN" localized="市"/>
+
+        <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_STATE" locale="zh_CN" localized="州"/>
+
+        <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="GEOT_COUNTRY" locale="zh_CN" localized="国家"/>
+     -->
  
     <!-- Message templates for formatting common sets of entity fields (generally for a view-entity) -->
 <!--     <moqui.basic.LocalizedMessage locale="default" original="EnumerationNameTemplate" localized="${description}"/>
