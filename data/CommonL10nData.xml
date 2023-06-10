@@ -188,5 +188,124 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage locale="default" original="UserAuthcOtpMessage" localized="Your single use code is ${code}"/>
  -->
      <moqui.basic.LocalizedMessage locale="zh_CN" original="UserAuthcOtpMessage" localized="您的一次性代码是 ${code}"/>
-        
+
+    <moqui.basic.LocalizedMessage locale="zh-CN" original="PaginationTemplate"
+                                  localized="第 ${curPageIndex + 1} 页 共 ${curPageMaxIndex + 1} 页(${context[listName + 'PageRangeLow']} - ${context[listName + 'PageRangeHigh']} of ${context[listName + 'Count']})"/>
+
+
+    <moqui.basic.LocalizedMessage original="Server Admin" locale="zh_CN" localized="服务端管理"/>
+    <!--artifact-->
+    <moqui.basic.LocalizedMessage original="Artifact Summary" locale="zh_CN" localized="Artifact汇总"/>
+    <moqui.basic.LocalizedMessage original="Artifact Type" locale="zh_CN" localized="Artifact类型"/>
+    <moqui.basic.LocalizedMessage original="Artifact Sub Type" locale="zh_CN" localized="Artifact子类型"/>
+    <moqui.basic.LocalizedMessage original="Artifact Name" locale="zh_CN" localized="Artifact名称"/>
+    <moqui.basic.LocalizedMessage original="Last Hit" locale="zh_CN" localized="最近点击"/>
+
+    <!--    缓存-->
+    <moqui.basic.LocalizedMessage original="Cache" locale="zh_CN" localized="缓存"/>
+    <moqui.basic.LocalizedMessage original="Cache List" locale="zh_CN" localized="缓存列表"/>
+
+    <moqui.basic.LocalizedMessage original="Cache Mgnt" locale="zh_CN" localized="缓存管理"/>
+
+    <!--安全-->
+    <moqui.basic.LocalizedMessage original="Security" locale="zh_CN" localized="安全"/>
+
+    <moqui.basic.LocalizedMessage original="Users" locale="zh_CN" localized="用户"/>
+    <moqui.basic.LocalizedMessage original="User" locale="zh_CN" localized="用户"/>
+
+    <moqui.basic.LocalizedMessage original="User Account List" locale="zh_CN" localized="用户账户列表"/>
+    <moqui.basic.LocalizedMessage original="User Account" locale="zh_CN" localized="用户账户"/>
+    <moqui.basic.LocalizedMessage original="User ID" locale="zh_CN" localized="用户编号"/>
+    <moqui.basic.LocalizedMessage original="Active Users" locale="zh_CN" localized="活跃用户"/>
+    <moqui.basic.LocalizedMessage original="My Account" locale="zh_CN" localized="我的账户"/>
+    <moqui.basic.LocalizedMessage original="Accounts" locale="zh_CN" localized="账户"/>
+    <moqui.basic.LocalizedMessage original="Account" locale="zh_CN" localized="账户"/>
+    <moqui.basic.LocalizedMessage original="Find Accounts" locale="zh_CN" localized="查找账户"/>
+    <moqui.basic.LocalizedMessage original="Create Accounts" locale="zh_CN" localized="创建账户"/>
+
+    <moqui.basic.LocalizedMessage original="Create User Account" locale="zh_CN" localized="创建用户账户"/>
+    <moqui.basic.LocalizedMessage original="User Full Name" locale="zh_CN" localized="用户全名"/>
+    <moqui.basic.LocalizedMessage original="Full Name" locale="zh_CN" localized="全名"/>
+
+    <moqui.basic.LocalizedMessage original="Account Detail" locale="zh_CN" localized="账户明细"/>
+    <moqui.basic.LocalizedMessage original="Disable Account" locale="zh_CN" localized="锁定账户"/>
+    <moqui.basic.LocalizedMessage original="Security Groups" locale="zh_CN" localized="安全组"/>
+
+    <moqui.basic.LocalizedMessage original="Add to Group" locale="zh_CN" localized="添加到组"/>
+    <moqui.basic.LocalizedMessage original="Add to Organizations" locale="zh_CN" localized="添加到组织"/>
+    <moqui.basic.LocalizedMessage original="User Group" locale="zh_CN" localized="用户组"/>
+    <moqui.basic.LocalizedMessage original="User Groups" locale="zh_CN" localized="用户组"/>
+    <moqui.basic.LocalizedMessage original="User Group ID" locale="zh_CN" localized="用户组编号"/>
+    <moqui.basic.LocalizedMessage original="Group ID" locale="zh_CN" localized="组编号"/>
+    <moqui.basic.LocalizedMessage original="Group Type" locale="zh_CN" localized="组类型"/>
+    <moqui.basic.LocalizedMessage original="Create User Group" locale="zh_CN" localized="创建用户组"/>
+    <moqui.basic.LocalizedMessage original="User Group Detail" locale="zh_CN" localized="用户组明细"/>
+    <moqui.basic.LocalizedMessage original="Group Users" locale="zh_CN" localized="组内用户"/>
+    <moqui.basic.LocalizedMessage original="Add User" locale="zh_CN" localized="添加用户"/>
+    <moqui.basic.LocalizedMessage original="User" locale="zh_CN" localized="用户"/>
+
+    <moqui.basic.LocalizedMessage original="Permissions" locale="zh_CN" localized="权限"/>
+    <moqui.basic.LocalizedMessage original="Permission ID" locale="zh_CN" localized="权限编号"/>
+    <moqui.basic.LocalizedMessage original="New Permission" locale="zh_CN" localized="新增权限"/>
+    <moqui.basic.LocalizedMessage original="Apply Ad-hoc Permission" locale="zh_CN" localized="应用临时权限"/>
+    <moqui.basic.LocalizedMessage original="Apply Existing Permission" locale="zh_CN" localized="应用现有权限"/>
+
+    <moqui.basic.LocalizedMessage original="Artifact Groups" locale="zh_CN" localized="Artifact组"/>
+
+    <moqui.basic.LocalizedMessage original="Administrators (full access)" locale="zh_CN" localized="管理员（所有权限）"/>
+
+    <moqui.basic.LocalizedMessage original="Password Set Date" locale="zh_CN" localized="口令设置日期"/>
+    <moqui.basic.LocalizedMessage original="Require Password Change" locale="zh_CN" localized="要求修改密码"/>
+    <moqui.basic.LocalizedMessage original="Password Verify" locale="zh_CN" localized="密码验证"/>
+    <moqui.basic.LocalizedMessage original="Visits" locale="zh_CN" localized="系统访问"/>
+    <moqui.basic.LocalizedMessage original="Visit ID" locale="zh_CN" localized="访问编号"/>
+    <moqui.basic.LocalizedMessage original="Visit Count" locale="zh_CN" localized="访问总数"/>
+
+    <moqui.basic.LocalizedMessage original="Preferences" locale="zh_CN" localized="参数"/>
+    <moqui.basic.LocalizedMessage original="Add Existing Preferences" locale="zh_CN" localized="添加现有参数"/>
+    <moqui.basic.LocalizedMessage original="Add Ad-hoc Preferences" locale="zh_CN" localized="添加临时参数"/>
+
+    <moqui.basic.LocalizedMessage original="Authorizations" locale="zh_CN" localized="授权"/>
+    <moqui.basic.LocalizedMessage original="Authorization" locale="zh_CN" localized="授权"/>
+    <moqui.basic.LocalizedMessage original="Add Authorization" locale="zh_CN" localized="添加授权"/>
+    <moqui.basic.LocalizedMessage original="Authz Type" locale="zh_CN" localized="授权类型"/>
+    <moqui.basic.LocalizedMessage original="Authz Service Name" locale="zh_CN" localized="授权服务名称"/>
+    <moqui.basic.LocalizedMessage original="Tarpits (Use Velocity Limits)" locale="zh_CN" localized="防攻击(使用速度限制)"/>
+    <moqui.basic.LocalizedMessage original="Add Tarpit" locale="zh_CN" localized="添加防攻击配置"/>
+    <moqui.basic.LocalizedMessage original="Max Hits Count" locale="zh_CN" localized="最大点击数"/>
+    <moqui.basic.LocalizedMessage original="Max Hits Duration" locale="zh_CN" localized="最大点击持续时间"/>
+    <moqui.basic.LocalizedMessage original="Tarpit Duration" locale="zh_CN" localized="防攻击时间"/>
+
+    <moqui.basic.LocalizedMessage original="Contact Info" locale="zh_CN" localized="联系方式"/>
+
+    <moqui.basic.LocalizedMessage original="Phone Numbers" locale="zh_CN" localized="电话号码"/>
+
+    <moqui.basic.LocalizedMessage original="Mailing Addresses" locale="zh_CN" localized="邮政地址"/>
+
+    <!--    实例-->
+    <moqui.basic.LocalizedMessage original="Instalces" locale="zh_CN" localized="实例"/>
+    <moqui.basic.LocalizedMessage original="Application Instalces" locale="zh_CN" localized="应用实例"/>
+    <moqui.basic.LocalizedMessage original="Create Application Instalces" locale="zh_CN" localized="创建应用实例"/>
+    <moqui.basic.LocalizedMessage original="Application ID" locale="zh_CN" localized="实例编号"/>
+    <moqui.basic.LocalizedMessage original="Application Name" locale="zh_CN" localized="实例名称"/>
+    <moqui.basic.LocalizedMessage original="Host Name" locale="zh_CN" localized="主机名"/>
+    <moqui.basic.LocalizedMessage original="Instance Host" locale="zh_CN" localized="实例所在主机"/>
+    <moqui.basic.LocalizedMessage original="Database Host" locale="zh_CN" localized="数据库所在主机"/>
+    <moqui.basic.LocalizedMessage original="Database" locale="zh_CN" localized="数据库"/>
+
+    <moqui.basic.LocalizedMessage original="Clear All Artifact" locale="zh_CN" localized="清除所有Artifact"/>
+    <moqui.basic.LocalizedMessage original="Run GC" locale="zh_CN" localized="运行GC"/>
+
+    <!--    线程-->
+    <moqui.basic.LocalizedMessage original="Thread List" locale="zh_CN" localized="线程列表"/>
+
+    <moqui.basic.LocalizedMessage original="Service" locale="zh_CN" localized="服务"/>
+    <moqui.basic.LocalizedMessage original="Service Reference" locale="zh_CN" localized="服务实例"/>
+    <moqui.basic.LocalizedMessage original="Service Name" locale="zh_CN" localized="服务名称"/>
+
+    <moqui.basic.LocalizedMessage original="Run Service" locale="zh_CN" localized="运行服务"/>
+    <moqui.basic.LocalizedMessage original="Service Run" locale="zh_CN" localized="服务运行"/>
+
+    <moqui.basic.LocalizedMessage original="Select Service" locale="zh_CN" localized="选择服务"/>
+
 </entity-facade-xml>
