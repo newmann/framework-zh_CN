@@ -16,7 +16,7 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.EnumerationType description="Data Feed Type" enumTypeId="DataFeedType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
-	    pkValue="DataFeedType" locale="zh_CN" localized="数据来源类型"/>  
+	    pkValue="DataFeedType" locale="zh_CN" localized="数据馈送类型"/>
 
 
 <!--             <moqui.basic.Enumeration description="Real-time Service Push" enumId="DTFDTP_RT_PUSH" enumTypeId="DataFeedType"/> -->
@@ -41,7 +41,7 @@ along with this software (see the LICENSE.md file). If not, see
 
 <!--             <moqui.basic.StatusItem description="Complete" sequenceNum="4" statusId="EsComplete" statusTypeId="EntitySync"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
-	    pkValue="EsComplete" locale="zh_CN" localized="完成"/>  
+	    pkValue="EsComplete" locale="zh_CN" localized="已完成"/>
 
 <!--             <moqui.basic.StatusItem description="Other Error" sequenceNum="98" statusId="EsOtherError" statusTypeId="EntitySync"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
