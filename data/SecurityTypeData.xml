@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="ArtifactType" locale="zh_CN" localized="工件类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_XML_SCREEN" locale="zh_CN" localized="界面"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_XML_SCREEN_TRANS" locale="zh_CN" localized="界面转换"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_XML_SCREEN_CONTENT" locale="zh_CN" localized="界面内容"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_SERVICE" locale="zh_CN" localized="服务"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_ENTITY" locale="zh_CN" localized="实体"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_REST_PATH" locale="zh_CN" localized="REST API 路径"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_LLM" locale="zh_CN" localized="LLM（大语言模型）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AT_OTHER" locale="zh_CN" localized="其它"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="AuthzType" locale="zh_CN" localized="授权类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZT_ALLOW" locale="zh_CN" localized="允许"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZT_DENY" locale="zh_CN" localized="拒绝（覆盖允许）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZT_ALWAYS" locale="zh_CN" localized="始终允许（覆盖拒绝）"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="AuthzAction" locale="zh_CN" localized="授权操作"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZA_VIEW" locale="zh_CN" localized="查看"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZA_CREATE" locale="zh_CN" localized="创建"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZA_UPDATE" locale="zh_CN" localized="更新"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZA_DELETE" locale="zh_CN" localized="删除"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="AUTHZA_ALL" locale="zh_CN" localized="全部"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="UserAuthcFactorType" locale="zh_CN" localized="用户认证因素类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UafTotp" locale="zh_CN" localized="认证器应用（TOTP）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UafSingleUse" locale="zh_CN" localized="一次性代码"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UafEmail" locale="zh_CN" localized="电子邮件代码"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UafSms" locale="zh_CN" localized="短信代码"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="UserGroupType" locale="zh_CN" localized="用户组类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UgtMoquiAdmin" locale="zh_CN" localized="Moqui 管理员"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="UgtRemoteSystems" locale="zh_CN" localized="远程系统"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.security.UserGroup" fieldName="description" pkValue="ADMIN" locale="zh_CN" localized="管理员（全部权限）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.security.UserGroup" fieldName="description" pkValue="ADMIN_ADV" locale="zh_CN" localized="管理员 - 高级"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.security.UserGroup" fieldName="description" pkValue="ALL_USERS" locale="zh_CN" localized="全部用户（默认所有用户均为成员）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.security.UserGroup" fieldName="description" pkValue="SYSMSG_RECEIVE" locale="zh_CN" localized="系统消息接收者"/>
+</entity-facade-xml>

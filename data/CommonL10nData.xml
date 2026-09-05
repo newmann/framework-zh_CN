@@ -41,17 +41,17 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Options" localized="查找选项"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Saved Finds" localized="已保存查找"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Save New Find" localized="保存新的查找"/>
-    <moqui.basic.LocalizedMessage localized="不显示" original="Do Not Display" locale="zh" />
-    <moqui.basic.LocalizedMessage localized="列" original="Column" locale="zh" />
-    <moqui.basic.LocalizedMessage localized="(升)" original="(Asc)" locale="zh" />
-    <moqui.basic.LocalizedMessage localized="(降)" original="(Desc)" locale="zh" />
-    <moqui.basic.LocalizedMessage localized="拖放列调整顺序，或拖到不显示。" original="Drag fields to the desired column or do not display" locale="zh" />
-    <moqui.basic.LocalizedMessage localized="当前使用的查找:" original="Active Saved Find:" locale="zh" />
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="No find parameters, choose some to save a new find or update existing" localized="没有查找变量，先选择查找变量进行保存或者更新现有的"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Do Not Display" localized="不显示"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Column" localized="列"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="(Asc)" localized="(升)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="(Desc)" localized="(降)"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Drag fields to the desired column or do not display" localized="拖放列调整顺序，或拖到不显示。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Active Saved Find:" localized="当前使用的查找:"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No find parameters, choose some to save a new find or update existing" localized="没有查找参数，先选择查找参数进行保存或者更新现有的"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Update to Current" localized="更新到当前"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Delete" localized="删除"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Do Find" localized="进行查找"/>
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Parameters" localized="查找变量"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Find Parameters" localized="查找参数"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Order By" localized="排序次序"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Asc" localized="升序"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Desc" localized="降序"/>
@@ -74,13 +74,19 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage locale="zh_CN" original="PDF" localized="PDF"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="From" localized="从"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Thru" localized="到"/>
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="This" localized="当"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="This" localized="本"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Last" localized="上"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Next" localized="下"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Day" localized="天"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Days" localized="天"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Week" localized="周"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Weeks" localized="周"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Month" localized="月"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Months" localized="月"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Quarter" localized="季度"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Year" localized="年"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="from##period" localized="从"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="to##period" localized="到"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Not" localized="不"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Equals" localized="等于"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Like" localized="类似"/>
@@ -103,12 +109,12 @@ along with this software (see the LICENSE.md file). If not, see
 
     <moqui.basic.LocalizedMessage original="Disabled" locale="zh_CN" localized="禁用"/>
 
-    <moqui.basic.LocalizedMessage original="Locale" locale="zh_CN" localized="区域"/>
-    <moqui.basic.LocalizedMessage original="Default Locale" locale="zh_CN" localized="缺省区域"/>
+    <moqui.basic.LocalizedMessage original="Locale" locale="zh_CN" localized="区域设置"/>
+    <moqui.basic.LocalizedMessage original="Default Locale" locale="zh_CN" localized="缺省区域设置"/>
     <moqui.basic.LocalizedMessage original="Localization" locale="zh_CN" localized="本地化"/>
 
     <moqui.basic.LocalizedMessage original="Localized" locale="zh_CN" localized="翻译"/>
-    <moqui.basic.LocalizedMessage original="Original" locale="zh_CN" localized="原本"/>
+    <moqui.basic.LocalizedMessage original="Original" locale="zh_CN" localized="原文"/>
 
     <moqui.basic.LocalizedMessage original="Time Zone" locale="zh_CN" localized="时区"/>
 
@@ -189,16 +195,16 @@ along with this software (see the LICENSE.md file). If not, see
  -->
      <moqui.basic.LocalizedMessage locale="zh_CN" original="UserAuthcOtpMessage" localized="您的一次性代码是 ${code}"/>
 
-    <moqui.basic.LocalizedMessage locale="zh-CN" original="PaginationTemplate"
-                                  localized="第 ${curPageIndex + 1} 页 共 ${curPageMaxIndex + 1} 页(${context[listName + 'PageRangeLow']} - ${context[listName + 'PageRangeHigh']} of ${context[listName + 'Count']})"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="PaginationTemplate"
+            localized="第 ${curPageIndex + 1} 页 共 ${curPageMaxIndex + 1} 页（${context[listName + 'PageRangeLow']} - ${context[listName + 'PageRangeHigh']} / ${context[listName + 'Count']}）"/>
 
 
     <moqui.basic.LocalizedMessage original="Server Admin" locale="zh_CN" localized="服务端管理"/>
     <!--artifact-->
-    <moqui.basic.LocalizedMessage original="Artifact Summary" locale="zh_CN" localized="Artifact汇总"/>
-    <moqui.basic.LocalizedMessage original="Artifact Type" locale="zh_CN" localized="Artifact类型"/>
-    <moqui.basic.LocalizedMessage original="Artifact Sub Type" locale="zh_CN" localized="Artifact子类型"/>
-    <moqui.basic.LocalizedMessage original="Artifact Name" locale="zh_CN" localized="Artifact名称"/>
+    <moqui.basic.LocalizedMessage original="Artifact Summary" locale="zh_CN" localized="工件汇总"/>
+    <moqui.basic.LocalizedMessage original="Artifact Type" locale="zh_CN" localized="工件类型"/>
+    <moqui.basic.LocalizedMessage original="Artifact Sub Type" locale="zh_CN" localized="工件子类型"/>
+    <moqui.basic.LocalizedMessage original="Artifact Name" locale="zh_CN" localized="工件名称"/>
     <moqui.basic.LocalizedMessage original="Last Hit" locale="zh_CN" localized="最近点击"/>
 
     <!--    缓存-->
@@ -228,7 +234,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Full Name" locale="zh_CN" localized="全名"/>
 
     <moqui.basic.LocalizedMessage original="Account Detail" locale="zh_CN" localized="账户明细"/>
-    <moqui.basic.LocalizedMessage original="Disable Account" locale="zh_CN" localized="锁定账户"/>
+    <moqui.basic.LocalizedMessage original="Disable Account" locale="zh_CN" localized="禁用账户"/>
     <moqui.basic.LocalizedMessage original="Security Groups" locale="zh_CN" localized="安全组"/>
 
     <moqui.basic.LocalizedMessage original="Add to Group" locale="zh_CN" localized="添加到组"/>
@@ -250,7 +256,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Apply Ad-hoc Permission" locale="zh_CN" localized="应用临时权限"/>
     <moqui.basic.LocalizedMessage original="Apply Existing Permission" locale="zh_CN" localized="应用现有权限"/>
 
-    <moqui.basic.LocalizedMessage original="Artifact Groups" locale="zh_CN" localized="Artifact组"/>
+    <moqui.basic.LocalizedMessage original="Artifact Groups" locale="zh_CN" localized="工件组"/>
 
     <moqui.basic.LocalizedMessage original="Administrators (full access)" locale="zh_CN" localized="管理员（所有权限）"/>
 
@@ -261,9 +267,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Visit ID" locale="zh_CN" localized="访问编号"/>
     <moqui.basic.LocalizedMessage original="Visit Count" locale="zh_CN" localized="访问总数"/>
 
-    <moqui.basic.LocalizedMessage original="Preferences" locale="zh_CN" localized="参数"/>
-    <moqui.basic.LocalizedMessage original="Add Existing Preferences" locale="zh_CN" localized="添加现有参数"/>
-    <moqui.basic.LocalizedMessage original="Add Ad-hoc Preferences" locale="zh_CN" localized="添加临时参数"/>
+    <moqui.basic.LocalizedMessage original="Preferences" locale="zh_CN" localized="偏好设置"/>
+    <moqui.basic.LocalizedMessage original="Add Existing Preferences" locale="zh_CN" localized="添加现有偏好设置"/>
+    <moqui.basic.LocalizedMessage original="Add Ad-hoc Preferences" locale="zh_CN" localized="添加临时偏好设置"/>
 
     <moqui.basic.LocalizedMessage original="Authorizations" locale="zh_CN" localized="授权"/>
     <moqui.basic.LocalizedMessage original="Authorization" locale="zh_CN" localized="授权"/>
@@ -284,8 +290,11 @@ along with this software (see the LICENSE.md file). If not, see
 
     <!--    实例-->
     <moqui.basic.LocalizedMessage original="Instalces" locale="zh_CN" localized="实例"/>
+    <moqui.basic.LocalizedMessage original="Instances" locale="zh_CN" localized="实例"/>
     <moqui.basic.LocalizedMessage original="Application Instalces" locale="zh_CN" localized="应用实例"/>
+    <moqui.basic.LocalizedMessage original="Application Instances" locale="zh_CN" localized="应用实例"/>
     <moqui.basic.LocalizedMessage original="Create Application Instalces" locale="zh_CN" localized="创建应用实例"/>
+    <moqui.basic.LocalizedMessage original="Create Application Instances" locale="zh_CN" localized="创建应用实例"/>
     <moqui.basic.LocalizedMessage original="Application ID" locale="zh_CN" localized="实例编号"/>
     <moqui.basic.LocalizedMessage original="Application Name" locale="zh_CN" localized="实例名称"/>
     <moqui.basic.LocalizedMessage original="Host Name" locale="zh_CN" localized="主机名"/>
@@ -293,19 +302,69 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage original="Database Host" locale="zh_CN" localized="数据库所在主机"/>
     <moqui.basic.LocalizedMessage original="Database" locale="zh_CN" localized="数据库"/>
 
-    <moqui.basic.LocalizedMessage original="Clear All Artifact" locale="zh_CN" localized="清除所有Artifact"/>
+    <moqui.basic.LocalizedMessage original="Clear All Artifact" locale="zh_CN" localized="清除所有工件"/>
     <moqui.basic.LocalizedMessage original="Run GC" locale="zh_CN" localized="运行GC"/>
 
     <!--    线程-->
     <moqui.basic.LocalizedMessage original="Thread List" locale="zh_CN" localized="线程列表"/>
 
     <moqui.basic.LocalizedMessage original="Service" locale="zh_CN" localized="服务"/>
-    <moqui.basic.LocalizedMessage original="Service Reference" locale="zh_CN" localized="服务实例"/>
+    <moqui.basic.LocalizedMessage original="Service Reference" locale="zh_CN" localized="服务参考"/>
     <moqui.basic.LocalizedMessage original="Service Name" locale="zh_CN" localized="服务名称"/>
 
     <moqui.basic.LocalizedMessage original="Run Service" locale="zh_CN" localized="运行服务"/>
     <moqui.basic.LocalizedMessage original="Service Run" locale="zh_CN" localized="服务运行"/>
 
     <moqui.basic.LocalizedMessage original="Select Service" locale="zh_CN" localized="选择服务"/>
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter a value" localized="请输入值"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter a valid number" localized="请输入有效数字"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter a valid whole number" localized="请输入有效整数"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter only numbers (digits)" localized="请只输入数字"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter only letters" localized="请只输入字母"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter a valid email address" localized="请输入有效的电子邮件地址"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Please enter a valid URL" localized="请输入有效的 URL"/>
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No username specified" localized="未指定用户名"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No password specified" localized="未指定密码"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="No login key specified" localized="未指定登录密钥"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Login key not valid" localized="登录密钥无效"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Login key expired" localized="登录密钥已过期"/>
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="HTML not allowed including less-than (&lt;), greater-than (&gt;), etc symbols" localized="不允许 HTML，包括小于（&lt;）、大于（&gt;）等符号"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Required parameter missing (${pi.name})" localized="必填参数（${pi.name}）缺失"/>
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Ready" localized="就绪"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Send" localized="发送"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="View" localized="查看"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Received" localized="已收到"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Bounce" localized="退回"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Failed" localized="失败"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Process" localized="处理"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Complete" localized="完成"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Hold" localized="保留"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Release" localized="释放"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Stop" localized="停止"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Resume" localized="继续"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Abort" localized="中止"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Sending" localized="发送中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Back to Produced" localized="回到已生成"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Confirm" localized="确认"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reject" localized="拒绝"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Consuming" localized="消费中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Consume" localized="消费"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Back to Received" localized="回到已接收"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Error" localized="错误"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Running" localized="运行中"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Reset Not Started" localized="重置为未开始"/>
+
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Your single use code is: ${code}" localized="您的一次性代码是：${code}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="If you didn't request this email, please contact administrator and reset your password." localized="如果您没有请求这封邮件，请联系管理员并重置密码。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="An email method for authentication has been added for ${userEmail}" localized="已为 ${userEmail} 添加电子邮件认证方式"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="This email is valid until ${thruDateString}" localized="此邮件有效期至 ${thruDateString}"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="A one time code was sent to ${userEmail}." localized="一次性代码已发送到 ${userEmail}。"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Rendered screen attached" localized="已附加渲染界面"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Password Reset" localized="密码重置"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Single Use Code" localized="一次性代码"/>
 
 </entity-facade-xml>

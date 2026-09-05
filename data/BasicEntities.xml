@@ -37,11 +37,11 @@ along with this software (see the LICENSE.md file). If not, see
     <!-- ========== Enumeration ========== -->            
 <!--             <moqui.basic.EnumerationType enumTypeId="_NA_" description="Not Applicable"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
-	    pkValue="_NA_" locale="zh_CN" localized="不可用"/>  
+	    pkValue="_NA_" locale="zh_CN" localized="不适用"/>  
 	                
 <!--             <moqui.basic.Enumeration enumId="_NA_" enumTypeId="_NA_" description="Not Applicable"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="_NA_" locale="zh_CN" localized="不可用"/>  
+	    pkValue="_NA_" locale="zh_CN" localized="不适用"/>  
 	    
 <!--             <moqui.basic.EnumerationType description="Boolean (Yes/No)" enumTypeId="BooleanYN"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" 
@@ -127,6 +127,9 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
 	    pkValue="GEOT_COUNTRY" locale="zh_CN" localized="国家"/>  
 
+<!--             <moqui.basic.Enumeration description="County" enumId="GEOT_COUNTY" enumTypeId="GeoType"/> -->
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description"
+            pkValue="GEOT_COUNTY" locale="zh_CN" localized="县"/>
 
 <!--             <moqui.basic.Enumeration description="County-City" enumId="GEOT_COUNTY_CITY" enumTypeId="GeoType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
@@ -217,7 +220,7 @@ along with this software (see the LICENSE.md file). If not, see
 	    pkValue="UT_ENERGY_MEASURE" locale="zh_CN" localized="能量"/>  
 <!--             <moqui.basic.Enumeration description="Power" enumId="UT_POWER_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UT_POWER_MEASURE" locale="zh_CN" localized="电力"/>  
+	    pkValue="UT_POWER_MEASURE" locale="zh_CN" localized="功率"/>  
 <!--             <moqui.basic.Enumeration description="Pressure" enumId="UT_PRESSURE_MEASURE" enumTypeId="UomType"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
 	    pkValue="UT_PRESSURE_MEASURE" locale="zh_CN" localized="压力"/>  
@@ -246,7 +249,7 @@ along with this software (see the LICENSE.md file). If not, see
 	    pkValue="UdtgProduct" locale="zh_CN" localized="产品"/>  
 <!--             <moqui.basic.Enumeration description="Party" enumId="UdtgParty" enumTypeId="UomDimTypeGroup"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
-	    pkValue="UdtgParty" locale="zh_CN" localized="实体"/>  
+	    pkValue="UdtgParty" locale="zh_CN" localized="当事人"/>  
 <!--             <moqui.basic.Enumeration description="Person" enumId="UdtgPerson" parentEnumId="UdtgParty" enumTypeId="UomDimTypeGroup"/> -->
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" 
 	    pkValue="UdtgPerson" locale="zh_CN" localized="个人"/>  
@@ -386,6 +389,12 @@ along with this software (see the LICENSE.md file). If not, see
 
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" 
 	    pkValue="PtjCanceled" locale="zh_CN" localized="已取消"/>
-                                    
-                         	        
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description"
+            pkValue="_NA_" locale="zh_CN" localized="不适用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description"
+            pkValue="_NA_" locale="zh_CN" localized="不适用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Geo" fieldName="geoName"
+            pkValue="CHN" locale="zh_CN" localized="中国"/>
+
 </entity-facade-xml>

@@ -22,6 +22,6 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedMessage locale="zh_CN" original="Username ${username} and/or password incorrect" localized="用户名${username} 和/或者 密码错误"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="User ${username} does not have permission ${permission}" localized="用户${username}没有权限${permission}"/>
     <moqui.basic.LocalizedMessage locale="zh_CN" original="User ${principalCollection.primaryPrincipal} is not in role ${roleName}" localized="用户${principalCollection.primaryPrincipal}不属于${roleName}角色"/>
-
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Authenticate failed for user ${newUserAccount.username} because client IP ${clientIp} is not in allowed list for user or group." localized="账号 ${newUserAccount.username} 认证失败，因为客户端 IP ${clientIp} 不在用户或用户组的允许列表中。"/>
 
 </entity-facade-xml>

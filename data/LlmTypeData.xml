@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="LlmSkillStatus" locale="zh_CN" localized="LLM 技能状态"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LsksActive" locale="zh_CN" localized="活动"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LsksProposed" locale="zh_CN" localized="提议"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LsksSuperseded" locale="zh_CN" localized="已替代"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LsksDeprecated" locale="zh_CN" localized="已弃用"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LsksRejected" locale="zh_CN" localized="已拒绝"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="LlmSkillRisk" locale="zh_CN" localized="LLM 技能风险"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskReversible" locale="zh_CN" localized="可逆"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskConfirm" locale="zh_CN" localized="需确认"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskIrreversible" locale="zh_CN" localized="不可逆"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="LlmSkillProvenance" locale="zh_CN" localized="LLM 技能来源"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskpWorld" locale="zh_CN" localized="真实世界"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskpMixed" locale="zh_CN" localized="混合"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskpHuman" locale="zh_CN" localized="人工"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskpSim" locale="zh_CN" localized="模拟"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LskpInfer" locale="zh_CN" localized="推断"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="LlmConversationStatus" locale="zh_CN" localized="LLM 会话状态"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsActive" locale="zh_CN" localized="活动"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsStreaming" locale="zh_CN" localized="流式输出中"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsYielded" locale="zh_CN" localized="已让出（等待客户端工具）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsComplete" locale="zh_CN" localized="完成"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsFailed" locale="zh_CN" localized="失败"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="LlmcsCancelled" locale="zh_CN" localized="已取消"/>
+</entity-facade-xml>

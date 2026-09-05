@@ -14,7 +14,7 @@ along with this software (see the LICENSE.md file). If not, see
 -->
 <entity-facade-xml type="seed">
     <!-- ScreenRenderImpl.groovy的翻译 -->
-    <moqui.basic.LocalizedMessage locale="zh_CN" original="Required parameter missing (${pi.name})" localized="必填变量(${pi.name})缺失!"/>
+    <moqui.basic.LocalizedMessage locale="zh_CN" original="Required parameter missing (${pi.name})" localized="必填参数（${pi.name}）缺失"/>
 
 
 </entity-facade-xml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="ScreenThemeResourceType" locale="zh_CN" localized="界面主题资源类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_STYLESHEET" locale="zh_CN" localized="样式表（CSS）URL"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_SCRIPT" locale="zh_CN" localized="脚本 URL"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_SCRIPT_FOOTER" locale="zh_CN" localized="页脚脚本 URL"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_SHORTCUT_ICON" locale="zh_CN" localized="快捷图标 URL"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_HEADER_LOGO" locale="zh_CN" localized="页眉徽标 URL"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_HEADER_TITLE" locale="zh_CN" localized="页眉标题"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_HEADER_NAVBAR_ITEM" locale="zh_CN" localized="页眉导航项"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_HEADER_NAVBAR_COMP" locale="zh_CN" localized="页眉导航组件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_HEADER_ACCOUNT_COMP" locale="zh_CN" localized="页眉账户组件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_FOOTER_ITEM" locale="zh_CN" localized="页脚项"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_BODY_CLASS" locale="zh_CN" localized="HTML Body CSS 类"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="STRT_SCREENSHOT" locale="zh_CN" localized="主题预览截图"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="FormConfigType" locale="zh_CN" localized="表单配置类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FctDesktop" locale="zh_CN" localized="桌面"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FctMobile" locale="zh_CN" localized="移动"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="DbFormPurpose" locale="zh_CN" localized="数据库表单用途"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DbfpOther" locale="zh_CN" localized="其它"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DbfpSurvey" locale="zh_CN" localized="调查"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="DbFormFieldType" locale="zh_CN" localized="数据库表单字段类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_link" locale="zh_CN" localized="链接"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_image" locale="zh_CN" localized="图片"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_label" locale="zh_CN" localized="标签"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_check" locale="zh_CN" localized="复选"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_date-find" locale="zh_CN" localized="日期查找"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_date-time" locale="zh_CN" localized="日期时间"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_display" locale="zh_CN" localized="显示"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_display-entity" locale="zh_CN" localized="显示实体"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_drop-down" locale="zh_CN" localized="下拉"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_file" locale="zh_CN" localized="文件"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_hidden" locale="zh_CN" localized="隐藏"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_ignored" locale="zh_CN" localized="忽略"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_password" locale="zh_CN" localized="密码"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_radio" locale="zh_CN" localized="单选"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_range-find" locale="zh_CN" localized="范围查找"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_reset" locale="zh_CN" localized="重置"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_submit" locale="zh_CN" localized="提交"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_text-line" locale="zh_CN" localized="单行文本"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_text-area" locale="zh_CN" localized="多行文本"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="DBFFT_text-find" locale="zh_CN" localized="文本查找"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FftNumberInteger" locale="zh_CN" localized="数字 - 整数"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FftNumberDecimal" locale="zh_CN" localized="数字 - 小数"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FftBoolean" locale="zh_CN" localized="布尔（是/否）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FftEnumeration" locale="zh_CN" localized="枚举"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="FftResource" locale="zh_CN" localized="资源"/>
+</entity-facade-xml>

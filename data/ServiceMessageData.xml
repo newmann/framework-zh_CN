@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This software is in the public domain under CC0 1.0 Universal plus a
+Grant of Patent License.
+
+To the extent possible under law, the author(s) have dedicated all
+copyright and related and neighboring rights to this software to the
+public domain worldwide. This software is distributed without any
+warranty.
+
+You should have received a copy of the CC0 Public Domain Dedication
+along with this software (see the LICENSE.md file). If not, see
+<http://creativecommons.org/publicdomain/zero/1.0/>.
+-->
+<entity-facade-xml type="seed">
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusType" fieldName="description" pkValue="SystemMessage" locale="zh_CN" localized="系统消息"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgProduced" locale="zh_CN" localized="已生成"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgSending" locale="zh_CN" localized="发送中"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgSent" locale="zh_CN" localized="已发送"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgReceived" locale="zh_CN" localized="已接收"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgConsuming" locale="zh_CN" localized="消费中"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgConsumed" locale="zh_CN" localized="已消费"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgConfirmed" locale="zh_CN" localized="已确认"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgRejected" locale="zh_CN" localized="已拒绝"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgCancelled" locale="zh_CN" localized="已取消"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" pkValue="SmsgError" locale="zh_CN" localized="错误"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="MessageReceiveResponse" locale="zh_CN" localized="消息接收响应"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MsgRrNone" locale="zh_CN" localized="无"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MsgRrDelete" locale="zh_CN" localized="删除"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="MsgRrMove" locale="zh_CN" localized="移动"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="SystemMessageAuthType" locale="zh_CN" localized="系统消息认证类型"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="SmatNone" locale="zh_CN" localized="无认证"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="SmatLogin" locale="zh_CN" localized="用户登录（basic、api_key 等）"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="SmatHmacSha256" locale="zh_CN" localized="HMAC SHA-256"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" pkValue="SmatHmacSha256Timestamp" locale="zh_CN" localized="带时间戳的 HMAC SHA-256"/>
+
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.EnumerationType" fieldName="description" pkValue="ServiceRegisterType" locale="zh_CN" localized="服务注册类型"/>
+</entity-facade-xml>
